@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<!-- Para el SEO -->
+<meta name="title" content="Encriptador V2 — Inteligencia conectada"/>
+<meta name="description" content="Encriptador V2 — esta es una seguna versión que he decidido crear para aplicar otro tipo de encriptación alterna, incluyendo la básica"/>
+<meta name="images" content="Previwe.png"/>
+<meta name="theme-color" content="#333333"/>
+<meta name="language" content="Spanish"/>
+<meta name="author" content="Miguel92"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Estilos -->
+<link rel="shortcut icon" href="Logo.png?vs" type="image/png" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"/>
+<link rel="stylesheet" href="style.css?vs2s2">
+<script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+<title>Encriptador v2 — Alura</title>
+</head>
+<body>
+
+   <header class="position-sticky shadow">
+      <div class="contenedor" style="margin:0 auto;">
+         <nav class="display-flex justify-content-between align-items-center">
+            <div class="logo display-flex justify-content-start align-items-center">
+               <img src="Logo.png" alt="Logo Alura">
+               <span>Encriptador v2</span>
+            </div>
+            <ul class="display-flex menu-navegacion">
+               <!-- 
+                  Atributo rel:
+                  https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/rel
+               -->
+               <li><a class="display-block border-radius activo" href="#" data-encriptador="básico">Encriptación básica</a></li>
+               <li><a class="display-block border-radius" href="#" data-encriptador="avanzado">Encriptación Avanzada</a></li>
+               <li><a class="display-block border-radius" href="https://joelmiguelvalente.github.io/challengeencriptador/" target="_blank" rel="opener">Versión v1</a></li>
+            </ul>
+         </nav>
+      </div>
+   </header>
+   
+   <div class="contenedor">
+      <div class="display-grid gap-3">
+         <div class="area-input">
+            <h3>Modo: Encriptación <b>básica</b></h3>
+            <textarea id="input" required placeholder="Ingrese el texto aquí"></textarea>
+            <span id="info"><span class="iconify" data-icon="akar-icons:circle-alert-fill"></span> solo letras minusculas y sin acentos</span>
+            <div class="botones display-flex justify-content-center align-items-center">
+               <button class="btn primary" id="encriptar">Encriptar</button>
+               <button class="btn success" id="desencriptar">Desencriptar</button>
+            </div>
+         </div>
+           
+         <div class="resultado shadow border-radius overflow-hidden position-relative">
+            <img src="muneco.png">
+            <div class="caja-textos">
+               <span class="h3">Ningún mensaje fue encontrado</span>
+               <span class="h4">Ingresa el texto que deseas encriptar o desencriptar.</span>
+            </div>
+            <div class="resultado-ver position-absolute" style="display:none;">
+               <textarea id="resultado" disabled ></textarea>
+               <button class="btn success" id="copiar">Copiar</button>
+            </div>
+         </div>
+      </div>
+   </div>
+      <div class="copyright">
+         <p class="display-block">Realizado por <b class="usuario">Miguel92</b></p>
+         <div class="redes">
+            <a href="https://github.com/joelmiguelvalente" target="_blank" rel="noreferrer"><span class="iconify" data-icon="akar-icons:github-fill"></span></a>
+            <a href="https://www.linkedin.com/in/joelmiguelvalente" target="_blank" rel="noreferrer"><span class="iconify" data-icon="akar-icons:linkedin-box-fill"></span></a>
+            <a href="https://discord.com/users/465203938900049920" target="_blank" rel="noreferrer"><span class="iconify" data-icon="akar-icons:discord-fill"></span></a>
+         </div>
+      </div>
+   <small class="modo" title="Cambia modo dark/light"><kbd>Shift</kbd> + <kbd>D</kbd></small>
+   <script src="script.js?v"></script>
+</body>
+</html>
