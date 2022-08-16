@@ -314,7 +314,12 @@ button.wait span i {
 		width: 98%;
 	}
 }
-@media (min-width: 576px) {
+@media (min-width: 320px) {
+	header nav ul {
+		display: block!important;	
+	}
+}
+@media (min-width: 320px) and (max-width: 768px) {
 	header nav {
 		display: block!important;
 	}
@@ -323,8 +328,11 @@ button.wait span i {
 		padding: 8px 0!important;
 		justify-content: center!important;	
 	}
+	header nav ul {
+		display: flex!important;	
+	}
   	.contenedor {
-    	min-width: 530px!important;
+    	width: 95%!important;
     	height: max-content!important;
   	}
 	.contenedor > div {
@@ -354,6 +362,9 @@ button.wait span i {
 		margin-bottom: 0!important;
 		padding: 0!important;
 		justify-content: flex-start!important;	
+	}
+	header nav ul {
+		display: flex!important;	
 	}
   	.contenedor {
     	min-width: 720px!important;
