@@ -63,19 +63,6 @@ var mapObjClave = { ai: "a", enter: "e", imes: "i", ober: "o", ufat: "u" };
 var regexV = /a|e|i|o|u/img;
 var regexC = /ai|enter|imes|ober|ufat/img;
 
-/*function codificar_avanzado(texto) {
-  	var array = [];
-  	for (var letra = texto.length-1; letra >= 0 ; letra--) {
-  		content = (texto[letra].charCodeAt() === 32) ? ' ' : texto[letra].charCodeAt() + ','
-    	array.unshift([content].join(''));
-  	}
-  	return array.join('');
-}
-//Metodo Decode
-function descodificarEntidad(texto) {
-  	return texto.replace(/(\d+),/g, (match, dec) => String.fromCharCode(dec));
-}*/
-
 function reemplazar(accion, texto) {
 	if(encriptadorTipo === 'avanzado') {
 		// codifica
