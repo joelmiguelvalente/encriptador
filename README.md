@@ -1,5 +1,7 @@
 # Encriptador Texto V2
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ae7b566c-9321-4b75-a074-d6df735ccc06/deploy-status)](https://app.netlify.com/sites/exquisite-moonbeam-680e7e/deploys)
+
 Esta es una versión alterna a la versión realizada en el Challenge ONE Encriptador de Texto
 
 El resultado del mismo
