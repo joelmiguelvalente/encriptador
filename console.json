@@ -1,0 +1,40 @@
+{
+	"title": {
+		"txt": "$1Imagenes utilizadas de Pexels",
+		"css": "color:red;font-weight:bolder;font-size:32px"
+	},
+	"group": [
+		{
+			"label": "Modo Dark",
+			"level": [
+				"Home: Foto de Lukas Mayer <https://www.pexels.com/es-es/foto/teclado-de-computadora-negro-785429/>",
+				"Encript: Foto de Sathesh D <https://www.pexels.com/es-es/foto/foto-en-primer-plano-de-las-teclas-del-lado-izquierdo-del-teclado-de-computadora-negro-698808/>"
+			]
+		},
+		{
+			"label": "Modo Light",
+			"level": [
+				"Home: Foto de cottonbro <https://www.pexels.com/es-es/foto/teclado-blanco-plano-cenital-flatlay-8875612/>",
+				"Encript: Foto de Cup of Couple <https://www.pexels.com/es-es/foto/apple-magic-mouse-y-apple-magic-keyboard-6177680/>"
+			]
+		}
+	],
+	"footer": {
+		"txt": [
+			"$1Encriptador v1.2",
+			"Hecho con cariño por $1Miguel92",
+			"$1#one #oraclenexteducation"
+		],
+		"css": [
+			"font-size:18px",
+			"font-size:18px;font-weight:bolder; color:red;",
+			"font-size:12px;font-style:italic;color:teal"
+		]
+	},
+	"redes": {
+		"txt": [
+			"Linkedin: https://www.linkedin.com/in/joelmiguelvalente/\nGitHub: https://github.com/joelmiguelvalente\nDiscord: https://discord.com/users/465203938900049920"
+		],
+		"css": ["","",""]
+	}
+}

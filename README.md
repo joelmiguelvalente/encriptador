@@ -1,15 +1,16 @@
-# Encriptador Texto V2
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/ae7b566c-9321-4b75-a074-d6df735ccc06/deploy-status)](https://app.netlify.com/sites/exquisite-moonbeam-680e7e/deploys)
-
-Esta es una versión alterna a la versión realizada en el Challenge ONE Encriptador de Texto
+# Encriptador Texto V3
 
 El resultado del mismo
 ![preview](Preview.png)
 
+Tiene una pantalla de inicio para que puedas elegir que tipo de encriptador vas a usar, podrás descargar el mensaje encriptado/desencriptado!
+
 Con las combinaciones de tecla `SHIFT` + `D` podrás cambiar de modo **Dark**/**Light**
 
-Tiene 2 formas de encriptación:
+Tiene 3 formas de encriptación:
  - La básica: Esta es la que tiene la versión 1
  - La Avanzada: Es otra forma de encriptar sin texto
- - La Experta: _en espera..._
+ - La Experta: Este encripta/desencripta mucho mejor
+
+En caso que no quieras presionar las teclas ya mencionadas, puedes hacer clic en esta área!
+![Zona cliqueable](Accion.png)
